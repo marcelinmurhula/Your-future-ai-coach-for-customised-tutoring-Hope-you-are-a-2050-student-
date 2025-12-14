@@ -3,36 +3,39 @@ VerSel
 VerSel is an AI assistant coach that provides customized tutoring by adapting to each student’s thinking style, level, and misconceptions.
 Instead of passively consuming content, students must predict, practice, and prove understanding before progressing.
 
-VerSel is designed to make learning active, visual, and impossible to fake.
+VerSel is built to make learning active, visual, and impossible to fake.
 
 What VerSel Does
 
-Starts every lesson by asking the student to predict
+Starts every lesson by asking the student to predict first
 
-Explains concepts through short visual explanations
+Explains concepts using short, simple visual explanations
 
-Forces students to practice and demonstrate understanding
+Forces students to practice immediately
 
-Blocks progress until mastery is shown
+Blocks progress until real understanding is demonstrated
 
 Adapts explanations based on how the student struggles
 
-VerSel is not a chatbot or a video platform — it is a learning engine.
+VerSel is not a chatbot.
+VerSel is not a video platform.
+VerSel is a learning engine.
 
 Current Status
 
 This repository contains an early prototype (V1) focused on validating the core learning loop:
+
 Predict → Explain → Prove → Unlock
 
-The goal at this stage is product learning and user feedback, not polish.
+At this stage, the priority is learning effectiveness and user feedback, not polish.
 
 Tech Stack
 
 Built with React + Vite for a fast and minimal development setup.
 
-This template provides:
+This setup provides:
 
-Hot Module Replacement (HMR)
+Fast Hot Module Replacement (HMR)
 
 Modern React tooling
 
@@ -47,35 +50,27 @@ Plugins Used
 React Compiler
 
 The React Compiler is not enabled by default due to its impact on development and build performance.
-If needed, you can enable it by following the official documentation:
+To enable it, follow the official documentation:
 https://react.dev/learn/react-compiler/installation
 
 Linting & Type Safety
 
-For production-scale development, using TypeScript with type-aware linting is recommended.
-You can start from the official React + TypeScript Vite template here:
+For production-ready development, using TypeScript with type-aware linting is recommended.
+You can start from the official React + TypeScript Vite template:
 https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts
 
 Vision
 
-VerSel aims to become a personalized AI learning coach for complex subjects by:
+VerSel aims to become a personalized AI learning coach that:
 
-Adapting to how each student thinks
+Adapts to how each student thinks
 
-Measuring real understanding instead of engagement
+Measures mastery instead of engagement
 
-Supporting education rather than replacing it
+Supports teachers and existing education systems
+
+Scales globally with fairness and discipline
 
 License
 
-MIT (or add your preferred license)
-
-
----
-
-**Want me to:**
-- Make an even shorter YC-style README?
-- Add a “Roadmap (V1 → V2 → V3)” section?
-- Rewrite it to target **students**, **teachers**, or **investors**?
-
-Tell me which one.
+MIT (or replace with your preferred license)
