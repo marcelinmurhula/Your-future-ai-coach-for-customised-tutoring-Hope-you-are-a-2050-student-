@@ -1,76 +1,72 @@
-VerSel
+# VerSel
 
-VerSel is an AI assistant coach that provides customized tutoring by adapting to each student’s thinking style, level, and misconceptions.
-Instead of passively consuming content, students must predict, practice, and prove understanding before progressing.
+**VerSel** is an AI-powered learning engine that provides personalized tutoring to each student worldwide by adapting to their level, thinking style, and misconceptions.
 
-VerSel is built to make learning active, visual, and impossible to fake.
+Instead of passive learning, VerSel forces active understanding through prediction, step-by-step reasoning, visualization, and questioning.
 
-What VerSel Does
+**Learning is not consumed — it is earned.**
 
-Starts every lesson by asking the student to predict first
+## What Is VerSel?
 
-Explains concepts using short, simple visual explanations
+VerSel starts assessing the student from the very beginning, not only during Q&A.
+It observes where students hesitate, misunderstand, or guess correctly, and continuously adapts the explanations to their level as they progress.
 
-Forces students to practice immediately
+The system improves the learner as they learn, not after they fail.
 
-Blocks progress until real understanding is demonstrated
+## How It Works
 
-Adapts explanations based on how the student struggles
+Each concept follows a strict learning loop: the student is first asked to predict, then shown a short and clear explanation, guided through the logic step by step, visualized abstractly, and finally challenged with questions. Progress is unlocked only when understanding is demonstrated.
 
-VerSel is not a chatbot.
-VerSel is not a video platform.
-VerSel is a learning engine.
+This prevents memorization without comprehension.
 
-Current Status
+## Current Status
 
-This repository contains an early prototype (V1) focused on validating the core learning loop:
+This repository contains an early MVP focused on validating the core learning flow:
 
-Predict → Explain → Prove → Unlock
+> Concept → Logic → Visual → Q&A
 
-At this stage, the priority is learning effectiveness and user feedback, not polish.
+The goal at this stage is learning effectiveness, not feature completeness.
 
-Tech Stack
+## Tech Stack
 
-Built with React + Vite for a fast and minimal development setup.
+Built with React + Vite for speed and simplicity.
 
-This setup provides:
+- **Fast Hot Module Replacement (HMR)**
+- **Modern React setup**
+- **ESLint for basic code quality**
 
-Fast Hot Module Replacement (HMR)
+### React Plugins
 
-Modern React tooling
+- `@vitejs/plugin-react` — React Fast Refresh using Babel (or oxc)
+- `@vitejs/plugin-react-swc` — React Fast Refresh using SWC
 
-ESLint for basic code quality
-
-Plugins Used
-
-@vitejs/plugin-react — React Fast Refresh using Babel (or oxc)
-
-@vitejs/plugin-react-swc — React Fast Refresh using SWC
-
-React Compiler
+### React Compiler
 
 The React Compiler is not enabled by default due to its impact on development and build performance.
-To enable it, follow the official documentation:
-https://react.dev/learn/react-compiler/installation
 
-Linting & Type Safety
+To enable it, see the official documentation:
+[https://react.dev/learn/react-compiler/installation](https://react.dev/learn/react-compiler/installation)
 
-For production-ready development, using TypeScript with type-aware linting is recommended.
-You can start from the official React + TypeScript Vite template:
-https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts
+## Linting & Type Safety
 
-Vision
+For production use, TypeScript with type-aware linting is recommended.
 
-VerSel aims to become a personalized AI learning coach that:
+You can start from the official Vite React + TypeScript template:
+[https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)
 
-Adapts to how each student thinks
+## Vision
 
-Measures mastery instead of engagement
+VerSel aims to become a global AI learning coach that:
 
-Supports teachers and existing education systems
+- Adapts to how each student thinks
+- Measures real understanding, not engagement
+- Works alongside teachers and institutions
+- Scales high-quality education worldwide
 
-Scales globally with fairness and discipline
+## License
 
-License
+MIT License
 
-MIT (or replace with your preferred license)
+---
+
+**Copy & Paste Note:** This README is written in Markdown. You can copy the entire content above and paste it directly into the `README.md` file in your VerSel GitHub repository. The formatting (headers, lists, blockquotes) will render correctly on GitHub.
