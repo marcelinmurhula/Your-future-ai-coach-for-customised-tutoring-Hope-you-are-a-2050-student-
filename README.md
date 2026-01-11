@@ -1,6 +1,6 @@
 # VerSel
 
-**VerSel** is an AI-powered learning engine that provides personalized tutoring to each student worldwide by adapting to their level, thinking style, and misconceptions.
+**VerSel** is an AI engine that provides personalized tutoring to each student worldwide by adapting to their level, thinking style, and misconceptions.
 
 Instead of passive learning, VerSel forces active understanding through prediction, step-by-step reasoning, visualization, and questioning.
 
